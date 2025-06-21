@@ -1,0 +1,24 @@
+{
+  "name": "playwright_e2e_tests",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Uvez Shaikh",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "playwright": "^1.53.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.53.1",
+    "@types/node": "^24.0.3"
+  }
+}
