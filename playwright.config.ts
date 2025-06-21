@@ -12,7 +12,7 @@ export default defineConfig({
   ],
   use: {
     baseURL: "https://automationintesting.online/",
-    headless: true,
+    headless: false,
     viewport: { width: 1280, height: 720 },
     actionTimeout: 10 * 1000,
     //screenshot: 'only-on-failure',
